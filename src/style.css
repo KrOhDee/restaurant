@@ -1,0 +1,80 @@
+body {
+  background-color: yellow;
+}
+
+button {
+  font-size: larger;
+  background-color: yellow;
+  border: red;
+  cursor: pointer;
+  padding: 14px 16px;
+}
+
+button:hover {
+  color: red;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'MyFont', Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url("./LibreBaskerville-Regular.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+.image {
+  width: 100vw;
+  height: 400px;
+  background: url("./icon.png");
+  background-repeat: no-repeat;
+  background-size: 400px auto;
+  background-position: center;
+}
+
+.quote {
+  text-align: center;
+  font-family: 'MyFont', Arial, Helvetica, sans-serif;
+  font-size: larger;
+  color: red;
+}
+
+.hours-open {
+  text-align: center;
+  font-family: 'MyFont', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 40px;
+  margin-top: 50px;
+}
+
+.contact-us {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.menu-holder {
+  background-color: white;
+  height: 100vh;
+  width: 800px;
+  margin: auto;
+  border: 5px double red;
+}
+/*# sourceMappingURL=style.css.map */
